@@ -93,7 +93,7 @@ export default function Book() {
                 )}
             </div>
             <div className="rental-list">
-                <h3>Aluguéis</h3>
+                <h3>Histórico de aluguéis</h3>
                 {rentals.length > 0 ? (
                     <ul>
                         {rentals.map((rental, index) => (
